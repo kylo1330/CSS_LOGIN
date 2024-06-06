@@ -1,0 +1,95 @@
+body {
+  background-color: #ffffff;
+  font-family: sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+.left{
+  background: rgb(177,160,232);
+      background: linear-gradient(180deg, rgba(177,160,232,1) 12%, rgba(218,190,216,1) 54%, rgba(220,191,218,1) 73%);
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.right {
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.Login {
+  width: 70%; 
+  margin: 0 auto;
+  padding-top: 170px;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: Arial;
+  color:  #FF4500;
+}
+
+.container {
+  margin: 3% 0%;
+  padding-bottom: 2px;
+  font-weight: 600;
+}
+input
+ {
+  width: 100%;
+  height: 40px;
+  font-family: sans-serif;
+  padding-left: 2%;
+}
+
+input[type="submit"]
+ {
+  background-color: #FF4500;
+  border-color:#FF4500;
+  color:#ffffff ;
+  opacity: 1.0;
+  
+  width: 103%;
+}
+
+input[type="checkbox"] 
+{
+  width: auto;
+  height: 1.5%;
+  
+
+ 
+}
+
+input[type="submit"]
+    {
+      width: 103%;
+      background-color: #ff0000;
+      border: 1px solid #ff0000;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+@media (max-width: 600px) {
+  .left
+  {
+    display: none;
+  }
+  .login-form 
+  {
+    width: 80%;
+    margin-bottom: 2%;
+  }
+  .right
+  {
+    width: 100%;
+    background-color:#ffffff;
+    border-radius: 5px;
+  }
+}
